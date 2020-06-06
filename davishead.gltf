@@ -101,8 +101,8 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
-        "metallicFactor": 0.5,
-        "roughnessFactor": 0.5
+        "metallicFactor": 2.5,
+        "roughnessFactor": 1.5
       },
       "name": "wire_028089177"
     }
