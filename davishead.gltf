@@ -102,17 +102,21 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
+          0.2784313725490196,
+          0.8901960784313725,
           1,
-          0.7803921568627451,
-          0.984313725490196,
           1
         ],
         "metallicFactor": 0.5,
         "roughnessFactor": 0.5
       },
+      "emissiveFactor": [
+        0.5882352941176471,
+        0.03137254901960784,
+        0.3843137254901961
+      ],
       "name": "wire_028089177"
     }
-  ],
   "meshes": [
     {
       "primitives": [
