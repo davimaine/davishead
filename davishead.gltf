@@ -102,8 +102,8 @@
     {
       "pbrMetallicRoughness": {
         "metallicFactor": 0.5,
-        "roughnessFactor": 0.5,
-        "anisotropicFilteringLevel" :4
+        "roughnessFactor": 0.5
+        
       },
       "name": "wire_028089177"
     }
