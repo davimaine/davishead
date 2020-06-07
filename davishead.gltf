@@ -102,20 +102,7 @@
     {
       "pbrMetallicRoughness": {
         "metallicFactor": 0.5,
-        "roughnessFactor": 0.5,
-        "animationCount": 0,
-        "materialCount": 1,
-        "hasMorphTargets": false,
-        "hasSkins": false,
-        "hasTextures": false,
-        "hasDefaultScene": true,
-        "drawCallCount": 1,
-        "totalVertexCount": 1290,
-        "totalTriangleCount": 430,
-        "maxUVs": 0,
-        "maxInfluences": 0,
-        "maxAttributes": 2
-  }
+        "roughnessFactor": 0.5
       },
       "name": "wire_028089177"
     }
