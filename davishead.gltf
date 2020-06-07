@@ -7,9 +7,7 @@
     {
       "name": "Scene",
       "nodes": [
-        2,
-        3,
-        4
+        1
       ]
     }
   ],
@@ -17,17 +15,17 @@
   "nodes": [
     {
       "matrix": [
-        0.15,
+        0.2,
         0,
         0,
         0,
         0,
-        0.15,
+        0.2,
         0,
         0,
         0,
         0,
-        0.15,
+        0.2,
         0,
         0,
         -9.810921107263958,
@@ -35,98 +33,13 @@
         1
       ],
       "name": "Head_of_Michelangelo_s_David",
-      "extras": {
-        "name": "Head_of_Michelangelo_s_David"
-      },
       "mesh": 0
     },
     {
-      "name": "Head_of_Michelangelo's_Davidobj",
-      "extras": {
-        "name": "Head_of_Michelangelo's_David.obj"
-      },
+      "name": "Head_of_Michelangelo's_David.obj",
       "children": [
         0
       ]
-    },
-    {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        3.865258606294492,
-        0,
-        1
-      ],
-      "name": "davisheadgltf",
-      "extras": {
-        "name": "davishead.gltf"
-      },
-      "children": [
-        1
-      ]
-    },
-    {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        7.891966830482456,
-        9.392354306418275,
-        7.351897989428507,
-        1
-      ],
-      "name": "DirectionalLight",
-      "extensions": {
-        "KHR_lights_punctual": {
-          "light": 0
-        }
-      }
-    },
-    {
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        -9.871928564595468,
-        10.911336422396563,
-        -9.661609397384176,
-        1
-      ],
-      "name": "DirectionalLight",
-      "extensions": {
-        "KHR_lights_punctual": {
-          "light": 1
-        }
-      }
     }
   ],
   "bufferViews": [
@@ -188,20 +101,22 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0,
-          0.8509803921568627,
-          1,
-          1
-        ],
-        "metallicFactor": 0.3,
-        "roughnessFactor": 1
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5,
+        "animationCount": 0,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 1290,
+        "totalTriangleCount": 430,
+        "maxUVs": 0,
+        "maxInfluences": 0,
+        "maxAttributes": 2
+  }
       },
-      "emissiveFactor": [
-        0.7294117647058823,
-        0.25882352941176473,
-        0.9803921568627451
-      ],
       "name": "wire_028089177"
     }
   ],
@@ -218,34 +133,5 @@
         }
       ]
     }
-  ],
-  "extensions": {
-    "KHR_lights_punctual": {
-      "lights": [
-        {
-          "name": "DirectionalLight",
-          "color": [
-            1,
-            0.8980392156862745,
-            0.9490196078431372
-          ],
-          "intensity": 1,
-          "type": "directional"
-        },
-        {
-          "name": "DirectionalLight",
-          "color": [
-            0.8784313725490196,
-            0.996078431372549,
-            1
-          ],
-          "intensity": 0.36,
-          "type": "directional"
-        }
-      ]
-    }
-  },
-  "extensionsUsed": [
-    "KHR_lights_punctual"
   ]
 }
