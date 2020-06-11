@@ -12,10 +12,10 @@
             "extras" : {
                 "glTF2ExportSettings" : {
                     "export_apply" : 1,
-                    "export_cameras" : 0,
+                    "export_cameras" : 1,
                     "export_extras" : 1,
                     "export_format" : "GLTF_EMBEDDED",
-                    "export_lights" : 0,
+                    "export_lights" : 1,
                     "export_tangents" : 1
                 }
             },
@@ -114,7 +114,7 @@
                     0.8688856959342957,
                     1
                 ],
-                "metallicFactor" : 0.3323051929473877,
+                "metallicFactor" : 0.2232142835855484,
                 "roughnessFactor" : 1
             }
         }
