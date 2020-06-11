@@ -103,7 +103,7 @@
             "extensions" : {
                 "KHR_materials_clearcoat" : {
                     "clearcoatFactor" : 1,
-                    "clearcoatRoughnessFactor" : 1
+                    "clearcoatRoughnessFactor" : 0
                 }
             },
             "name" : "Material.001",
