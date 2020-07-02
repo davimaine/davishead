@@ -3,80 +3,38 @@
         "generator" : "Khronos glTF Blender I/O v1.2.75",
         "version" : "2.0"
     },
-    "extensionsUsed" : [
-        "KHR_lights_punctual"
-    ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        0.47434201836586,
-                        0,
-                        1
-                    ],
-                    "intensity" : 200,
-                    "type" : "point",
-                    "name" : "Light"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 10,
-                    "type" : "point",
-                    "name" : "Point"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
             "extras" : {
                 "glTF2ExportSettings" : {
+                    "export_all_influences" : 1,
                     "export_apply" : 1,
                     "export_cameras" : 1,
-                    "export_current_frame" : 0,
+                    "export_colors" : 0,
+                    "export_current_frame" : 1,
                     "export_extras" : 1,
                     "export_format" : "GLTF_EMBEDDED",
-                    "export_lights" : 1,
-                    "export_tangents" : 1
+                    "export_frame_range" : 0,
+                    "export_frame_step" : 1,
+                    "export_lights" : 0,
+                    "export_materials" : 1,
+                    "export_normals" : 1,
+                    "export_tangents" : 0,
+                    "export_texcoords" : 0
                 }
             },
             "name" : "Scene",
             "nodes" : [
-                1,
+                0,
+                2,
                 3,
-                4,
-                6
+                4
             ]
         }
     ],
     "nodes" : [
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Light_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                0
-            ],
             "name" : "Light",
             "rotation" : [
                 0.16907575726509094,
@@ -102,7 +60,7 @@
         },
         {
             "children" : [
-                2
+                1
             ],
             "name" : "Camera",
             "rotation" : [
@@ -121,10 +79,10 @@
             "mesh" : 0,
             "name" : "Head_of_Michelangelo_s_David",
             "rotation" : [
-                0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
+                0.6941152215003967,
+                -0.1349223405122757,
+                0.1349223554134369,
+                0.6941152215003967
             ],
             "scale" : [
                 0.15000000596046448,
@@ -133,23 +91,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 1
-                }
-            },
-            "name" : "Point_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                5
-            ],
             "name" : "Point",
             "translation" : [
                 -0.15551185607910156,
@@ -175,21 +116,21 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 1,
+                        "node" : 0,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 1,
+                        "node" : 0,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 1,
+                        "node" : 0,
                         "path" : "scale"
                     }
                 }
@@ -218,21 +159,21 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 3,
+                        "node" : 2,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 3,
+                        "node" : 2,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 3,
+                        "node" : 2,
                         "path" : "scale"
                     }
                 }
@@ -261,7 +202,7 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 4,
+                        "node" : 3,
                         "path" : "rotation"
                     }
                 }
@@ -280,21 +221,21 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 6,
+                        "node" : 4,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 6,
+                        "node" : 4,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 6,
+                        "node" : 4,
                         "path" : "scale"
                     }
                 }
